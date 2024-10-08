@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-1{ 
+    background-color:rgba(220, 220, 220, 0.187);
+}
+.d1{
+    border: 2px solid black;
+    height:95vh;
+    width: 220px;
+    background-color: #02484b;
+    border: none;
+}
+.apple{
+    position: absolute;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.a1{
+    position: relative;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.board{
+    position: absolute;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.last:hover{
+    background-color: #3FA2F6;
+    color: white;
+}
+.a2{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.user{
+    position: absolute;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.a3{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.message{
+    position: absolute;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.a4{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.ques{
+    position: absolute;
+    font-size: 13px;
+    border: 1px solid whitesmoke;
+    padding: 4px 4px 1px 4px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    color: #02484b;
+    
+}
+.a5{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.setting{
+    position: absolute;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.a6{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.lock{
+    position: absolute;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.a7{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.sign{
+    position: absolute;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.a8{
+    position: relative;
+    font-size: 18px; 
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.d2 {
+    border: 1px solid black;
+    position: relative;
+    padding: 5px 0px 7px 0px;
+    background-color: white;
+    margin-bottom: 15px;
+    border: none;
+    outline: grey;
+}
+
+.bar {
+    font-size: 25px;
+    margin-left: 20px; 
+}
+
+.a9 {
+    width: 90%; 
+    padding: 2px 50px 2px 25px; 
+    border-radius: 50px;
+    border: 1px solid grey;
+    font-size: 15px;
+    height: 30px;
+}
+
+.a10 {
+    background-image: url("./bts-1.jpg");
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px; 
+}
+
+.d3, .d4, .d5, .d6 {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.721);
+    padding: 10px 30px;
+    height: 100px;
+    text-align: center;
+    border: none;
+    width: 200px;
+}
+
+.eye, .cart, .comment, .dollar {
+    position: absolute;
+    font-size: 40px;
+    right: 10px;
+    top: 20px;
+    color: #3FA2F6;
+}
+
+
+.d7, .d8 {
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      border: none;
+      /* height: 400px; */
+    }
+
+
+    .a19, .s1 {
+      font-size: 26px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      margin-bottom: 20px;
+      
+    }
+
+    .a20 {
+      float: right;
+      padding: 6px 12px;
+      font-size: 15px;
+      color: white;
+      background-color: #3FA2F6;
+      border: none;
+      border-radius: 5px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .a21 {
+      width: 100%;
+      text-align: left;
+      margin-top: 20px;
+      font-family: "Poppins", sans-serif;
+      border-collapse: collapse;
+    }
+
+    .a21 th, .a21 td {
+      padding: 12px;
+      font-size: 18px;
+    }
+
+    .a21 th {
+      font-weight: 700;
+    }
+
+    .a21 td {
+      font-weight: 500;
+    }
+
+    .d-1, .p-1, .r-1, .i-1 {
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .d-1 { background-color: greenyellow; 
+    }
+    .p-1 { background-color: orange; }
+    .r-1 { background-color: red; }
+    .i-1 { background-color: rgb(19, 120, 160); }
+
+.s1{
+     font-size: 22px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+}
+
+
+    .s2 {
+     background-image: url("./boy\ 1.jpg");
+       height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      margin-left: 10px;
+      background-size: cover;
+      background-position: center;
+      }
+    .s4 {
+     background-image: url("./boy\ 2.jpg");
+       height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      margin-left: 10px;
+      background-size: cover;
+      background-position: center; }
+    .s6 {
+     background-image: url('./milk.jpg');
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      margin-left: 10px;
+      background-size: cover;
+      background-position: center;
+      }
+    .s8 { background-image: url('./bts-1.jpg'); 
+     height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      margin-left: 10px;
+      background-size: cover;
+      background-position: center;}
+    .s10 { background-image: url('./boy\ 4.jpg');
+    height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      margin-left: 10px;
+      background-size: cover;
+      background-position: center;
+     }
+    
+
+    .h5-1 {
+      font-size: 17px;
+      margin-top: 10px;
+      margin-left: 50px;
+      font-weight: 700;
+    }
+
+    .s3, .s5, .s7, .s9, .s11, .s13, .s15, .s17 {
+      font-size: 14px;
+      margin-left: 50px;
+    }
